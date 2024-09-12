@@ -1,0 +1,33 @@
+table{
+    width: 250px;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.tabdiv{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 50px;
+    justify-content: center;
+}
+input{
+    padding: 8px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    margin: 30px;
+    background-color: #007bff;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #0069;
+}
